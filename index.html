@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>Multi-Step</title>
+</head>
+
+<body>
+    <div class="multi-step-container">
+
+        <form action="" class="multi-step __register active">
+            <h1>Register</h1>
+
+            <div class="box">
+                <label for="">Name</label>
+                <input type="text" placeholder="enter your name" class="name">
+            </div>
+
+            <div class="box">
+                <label for="">Email</label>
+                <input type="text" placeholder="example@email.com" class="email">
+            </div>
+
+            <a href="" class="button">Continue</a>
+        </form>
+
+        <form action="" class="multi-step __topics ">
+            <h1>Which topics you are interested in?</h1>
+
+            <div class="checkbox">
+                <input type="checkbox" name="Software Developer" id="soft-dev">
+                <label for="soft-dev">Software Development</label>
+            </div>
+
+            <div class="checkbox">
+                <input type="checkbox" name="User Experience" id="UX">
+                <label for="UX">User Experience</label>
+            </div>
+
+            <div class="checkbox">
+                <input type="checkbox" name="Graphic Design" id="graph-design">
+                <label for="graph-design">Graphic Design</label>
+            </div>
+
+            <a href="" class="button">Continue</a>
+
+        </form>
+
+        <section class="multi-step __summary ">
+            <h1>Summary</h1>
+
+            <div class="info">
+                <p class="name"></p>
+                <p class="email"></p>
+            </div>
+
+            <div class="topics-list">
+                <span>Topics:</span>
+                <ul class="list">
+
+                </ul>
+
+            </div>
+            <a href="" class="button">Confirm</a>
+        </section>
+
+
+        <section class="multi-step  __final">
+            <h1>🌟Finish🌟</h1>
+            <p>Thanks for Register</p>
+
+            <a href="" class="button">Back</a>
+        </section>
+
+    </div>
+    <div class="steps" data-content="Step 1 of 3">
+        <div class="circle ativo color"></div>
+        <div class="circle "></div>
+        <div class="circle"></div>
+    </div>
+
+    <img class="back-images" src="./image/blur-radial.svg" alt="">
+    <img class="back-images" src="./image/blur-radial.svg" alt="">
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
